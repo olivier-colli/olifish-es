@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # set -e # Exit with nonzero exit code if anything fails
 
-galleries='./galeries'
+galleries='./galerias'
 
 # init
 rm -Rf $galleries
@@ -17,4 +17,4 @@ npm run compose-galleries
 git add --force index.html $galleries
 git commit -m "add galleries and index"
 
-git push --force https://$token@github.com/olivier-colli/olifish-fr.git
+git push --force https://$token@github.com/olivier-colli/olifish-es.git

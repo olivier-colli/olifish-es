@@ -9,7 +9,7 @@ export default {
     siteUrl: siteUrl,
     photosRepoUrl: photosRepoUrl,
     dbUrl: new URL(`${DBUrl}/data.json`),
-    galleriesDir: './galeries',
+    galleriesDir: './galerias',
     configGalleries: 'galleries.yaml',
     tplHead: path.join(tplDir, 'tpl-head.html'),
     tplCss: path.join(tplDir, 'tpl-style.css'),
