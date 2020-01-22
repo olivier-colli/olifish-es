@@ -1,6 +1,6 @@
 import path from 'path'
 
-const siteUrl = new URL('https://olivier-colli.github.io/olifish-fr')
+const siteUrl = new URL('https://olivier-colli.github.io/olivier-es')
 const photosRepoUrl = new URL('https://olivier-colli.github.io/olifish-photos')
 const DBUrl = new URL('https://olivier-colli.github.io/olifish-photos')
 const tplDir = './cli/template'
@@ -15,6 +15,8 @@ export default {
     tplCss: path.join(tplDir, 'tpl-style.css'),
     tplIndexCss: path.join(tplDir, 'tpl-index.css'),
     tplJS: path.join(tplDir, 'tpl-script.js'),
+    tplSearchJS: path.join(tplDir, 'tpl-script-search.js'),
+    tplSearch: path.join(tplDir, 'tpl-search.html'),
     tplPhotoswipe: path.join(tplDir, 'tpl-photoswipe.html'),
     tplHeader: path.join(tplDir, 'tpl-header.html'),
     tplIndex: path.join(tplDir, 'tpl-index.html'),
